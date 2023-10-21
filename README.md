@@ -33,7 +33,7 @@ Konfigurasi file .env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=admin_billing
+DB_DATABASE=tbl_informasi
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -43,7 +43,7 @@ APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:MzM8eIe2f/kz4AhdeBOn3EJoPUPbqANPVVSOuYleMnI=
 APP_DEBUG=true
-APP_URL=http://e-billing
+APP_URL=http://pelayanan-masyarakat
 ```
 Generate key
 ```bash
@@ -52,10 +52,6 @@ php artisan key:generate
 Migrate database
 ```bash
 php artisan migrate
-```
-Seeder table User, Pengaturan
-```bash
-php artisan db:seed
 ```
 Menjalankan aplikasi
 ```bash
